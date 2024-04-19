@@ -1,0 +1,106 @@
+{
+  "plays": {},
+  "quizzes": {
+    "1": {
+      "id": "1",
+      "name": "Places around RPI",
+      "owner": "3",
+      "description": "\"Places around RPI\" is a location quiz that tests your familiarity with the diverse spots near Rensselaer Polytechnic Institute. From campus landmarks to nearby hangouts, each question challenges your knowledge of the area's unique spots, making for an engaging exploration of RPI's surroundings. Whether you're a local or new to the area, this quiz promises a fun way to discover the places that shape the RPI experience.",
+      "thumbnail": "/files/rpi.png",
+      "created": 1708072882,
+      "timelimit": 30,
+      "comments": {
+        "1": {
+          "id": "1",
+          "owner": "3",
+          "body": "3",
+          "created": 1708880003
+        }
+      },
+      "questions": [
+        {
+          "id": 0,
+          "type": "blank",
+          "name": "Blank Question",
+          "description": "Players can just skip this. Quiz makers can use this as an info slide.",
+          "image": "/files/base.jpeg"
+        },
+        {
+          "id": 1,
+          "type": "match",
+          "name": "Match Question",
+          "description": "Players must find/take an image that as closely resembles the given image as possible.",
+          "image": "/files/rpi.png"
+        },
+        {
+          "id": 2,
+          "type": "location",
+          "name": "Location Question",
+          "description": "Users must pick a location on a map that best describes the image.",
+          "image": "/files/location.webp",
+          "answer": [
+            42.73,
+            -73.6775
+          ]
+        },
+        {
+          "id": 3,
+          "type": "choice",
+          "name": "Choice Question",
+          "description": "Users must pick the correct answer out of the options.",
+          "image": "/files/dcc.jpeg",
+          "choices": [
+            "Darrin Communication Center",
+            "Russell Sage Dining Hall",
+            "Blitman Dining Hall",
+            "The Commons Dining Hall"
+          ],
+          "answer": "Darrin Communication Center"
+        }
+      ],
+      "published": false,
+      "visible": true
+    }
+  },
+  "users": {
+    "1": {
+      "id": "1",
+      "username": "Yakko Warner",
+      "password": "warner",
+      "description": "Hellooo Nurse!",
+      "profile": "/files/yakko.png",
+      "created": 1708870003,
+      "follows": [],
+      "likes": [],
+      "admin": true,
+      "trophies": []
+    },
+    "2": {
+      "id": "2",
+      "username": "Wakko Warner",
+      "password": "warner",
+      "description": "Faboo!",
+      "profile": "/files/wakko.png",
+      "created": 1708880003,
+      "follows": [],
+      "likes": [
+        "1"
+      ],
+      "admin": false,
+      "trophies": []
+    },
+    "3": {
+      "id": "3",
+      "username": "Dot Warner",
+      "password": "warner",
+      "description": "Call me Dottie, and you die.",
+      "profile": "/files/dot.png",
+      "created": 1708860003,
+      "follows": [],
+      "likes": [],
+      "admin": false,
+      "trophies": []
+    }
+  },
+  "reports": {}
+}
